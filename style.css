@@ -1,0 +1,540 @@
+.animate {
+    position: absolute;  
+    height: 3rem;
+    width: 3rem;
+    top: 260px;
+    left: 8rem;
+    border-radius: 100%;
+    border: 1px solid white;
+    
+    animation: bounce 5s linear(0.49, 0.89, 0.74) infinite alternate;
+  }
+  @keyframes bounce {
+    0% {
+        transform:  translateY(0px);
+    }
+    25% {
+         transform: translateY(50px);
+    }
+    50% {
+         transform: translateY(0px);
+    }
+    75% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+  }
+  .mate {
+    margin-top: 0.6rem;
+    margin-left: 1.2rem;
+    color: white;
+    
+  } 
+  
+  .herine {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .rnc {
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .fash:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  .studylearn {
+    color: white;
+    transition: transform 0.3s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .studylearn:hover {
+    transform: scale(0.9);
+  }
+  .learn {
+    font-weight: 700;
+  }
+  .learn:hover {
+    background-color: white;
+    border: solid white;
+    color: red;
+  }
+  .industry {
+    font-weight: 700;
+  }
+  .industry:hover {
+    background-color: white;
+    border: solid white;
+    color: red;
+  }
+  
+  
+  .bustry {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: transform 0.3s ease;
+  }
+  .bustry:hover {
+    transform: scale(0.9);
+  }
+  .progam {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-top: solid black;
+    font-weight: 700;
+  }
+  .prep{
+    border-radius: 15px 50px;
+    border: solid white;
+    transition: transform 0.3s ease;
+  }
+  .prep:hover{
+    transform: scale(0.9);
+  }
+  .prep p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+  .prep button {
+    color: white;
+    font-weight: 700;
+
+  }
+  .bach h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+  }
+  .bach p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .help{
+    border-radius: 15px 50px;
+    border: solid white;
+    transition: transform 0.3s ease;
+  }
+  .help:hover{
+    transform: scale(0.9);
+  }
+  .help p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+  .help button {
+    color: white;
+    font-weight: 700;
+
+  }
+  .ment h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: red;
+}
+.ment p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.future{
+  border-radius: 15px 50px;
+  border: solid white;
+  transition: transform 0.3s ease;
+}
+.future:hover{
+  transform: scale(0.9);
+}
+.future p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+.future button {
+  color: white;
+  font-weight: 700;
+
+}
+.post h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: red;
+}
+.post p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sus{
+  border-radius: 15px 50px;
+  border: solid white;
+  transition: transform 0.3s ease;
+}
+.sus:hover{
+  transform: scale(0.9);
+}
+.sus p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+.sus button {
+  color: white;
+  font-weight: 700;
+
+}
+.degree h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: red;
+}
+.degree p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.i {
+  
+  
+  border: 1px solid red;
+   background-color: red;
+}
+i:hover {
+  background-color: black;
+cursor: pointer;
+}
+.ii {
+  
+  
+  border: 1px solid red;
+  
+  
+}
+.ii:hover {
+background-color: black;
+cursor: pointer;
+}
+.iii {
+  
+  border: 1px solid red;
+  
+}
+.iii:hover{
+  background-color: black;
+cursor: pointer;
+}
+.iv {
+
+  border: 1px solid red;
+
+}
+.iv:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.v {
+ 
+  border: 1px solid red;
+}
+.v:hover {
+  background-color: black;
+cursor: pointer;
+}
+
+.arr {
+ 
+  border: 1px solid red;
+}
+.arr:hover {
+  background-color: red;
+}
+.arr p {
+ padding: 0.5rem 0.5rem;
+  color: red;
+}
+.arr p:hover {
+  color: white;
+}
+.row {
+ 
+  border: 1px solid red;
+}
+.row:hover {
+  background-color: red;
+}
+.row p {
+  padding: 0.5rem 0.5rem;
+  color: red;
+}
+.row p:hover {
+  color: white;
+}
+.commit {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-top: solid black;
+  font-weight: 700; 
+}
+.multi {
+  border-top: 1px solid black;
+}
+.full {
+  border-radius: 100% ;
+  border: 1px solid red;
+  background-color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.full p {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.offer {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.with {
+  border-top: 1px solid black;
+}
+.highlight {
+  border-radius: 100% ;
+  border: 1px solid red;
+  background-color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.highlight p {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bridge {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.step {
+  border-top: 1px solid black;
+}
+.coma {
+  border-radius: 100% ;
+  border: 1px solid red;
+  background-color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.coma p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+.teach {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hand {
+  border-top: 1px solid black;
+}
+.dot {
+  border-radius: 100% ;
+  border: 1px solid red;
+  background-color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dot p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+.shape {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.rect {
+  border: 1px solid red;
+  background-color: red;
+ }
+  rect:hover {
+  background-color: black;
+  border: 1px solid black;
+  cursor: pointer;
+ }
+ .angle {
+         
+  
+  border: 1px solid red;
+ 
+         
+ }
+ .angle:hover {
+  background-color: black;
+  cursor: pointer;
+  border: 1px solid black;
+  }
+.ctan {
+ border: 1px solid red;
+}
+.ctan:hover {
+  background-color: black;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.cu {
+  border: 1px solid red;
+}
+.cu:hover {
+  background-color: red;
+}
+.be {
+  border: 1px solid red;
+}
+.be:hover {
+  background-color: red;
+}
+.gallery {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-top: solid black;
+  font-weight: 700;
+}
+
+.view button{
+  border: 1px solid transparent;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+}
+
+.view button:hover {
+  color: red;
+  background-color: white;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.sec-title{
+        
+  position: relative;
+  margin-bottom: 50px;
+  padding-bottom: 15px;
+}
+
+.sec-title h1 {
+font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sec-title p {
+font-family: Georgia, 'Times New Roman', Times, serif;
+line-height: 28px;
+color: black;
+text-transform: capitalize;
+}
+.sec-title:after {
+content: '';
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100px;
+height: 3px;
+background: black; 
+}
+.testimonials-content {
+  padding: 30px;
+   animation: scrollleft 30s linear infinite;  
+}
+ @keyframes scrollleft {
+  0% { transform: translateX(-96%); }
+  100% { transform: translateX(96%); } 
+ 
+} 
+.single-testimonials {
+  min-width: 250px; 
+   height: 28rem;
+ border: 7px solid black;
+ text-align: center;
+ border-radius: 45px;
+ z-index: 2;
+ }
+ .single-testimonials p{
+   color: black;
+   font-size: 12px;
+   padding: 10px;
+   z-index: 3;
+  }
+  .client-info {
+    padding: 0 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    
+   }
+  
+   .client-info .client-details h6{
+    font-size: 10px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   .client-info {
+      
+      gap: 3rem;
+      padding: 0 50px;
+      align-items: center;
+      justify-content: center;
+      text-align: left;
+      
+     }
+    
+     .client-info .client-details h6{
+      font-size: 10px;
+      font-weight: 700;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+     .client-info .client-pic img {
+      
+      border-radius: 1rem;
+     }
+      .get {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+       
+    .us {
+        padding: 0 1.25em;
+        border: 1px solid rgb(218, 217, 217);
+        border-radius: 4px;
+        outline: none;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .normal {
+        font-weight: 600;
+        padding: 15px 10px;
+        color: #000;
+        background-color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background-color: rgb(218, 217, 217);
+        color: #fff;
+        white-space: nowrap;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .search {
+      background-color: rgb(218, 217, 217);
+     height: 8.5rem;
+     width: 100%;
+    }
+    .bro {
+      padding: 15px 50px;
+      display: flex;
+       justify-content: center;
+      gap: 4rem;
+      
+    }
+    .bro a {
+      text-decoration: none;
+      
+      color: #000;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: 800;
+    }
+    .logo1 {
+      display: flex;
+      gap: 18rem;
+      margin-top: 2rem;
+      padding: 0 70px;
+
+    }
+    .bo p {
+      font-size: 1rem;
+      padding: 5px 0;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .logo img {
+      margin-left: 0.5rem;
+    }
+    .pay img {
+      margin-left: 0.5rem;
+    }
