@@ -419,16 +419,12 @@ height: 3px;
 background: black; 
 }
 .testimonials-content {
-  padding: 30px;
-   animation: scrollleft 30s linear infinite;  
+  
+   
 }
- @keyframes scrollleft {
-  0% { transform: translateX(-96%); }
-  100% { transform: translateX(96%); } 
  
-} 
 .single-testimonials {
-  min-width: 250px; 
+  /* min-width: 250px;  */
    height: 28rem;
  border: 7px solid black;
  text-align: center;
@@ -437,7 +433,7 @@ background: black;
  }
  .single-testimonials p{
    color: black;
-   font-size: 12px;
+   /* font-size: 12px; */
    padding: 10px;
    z-index: 3;
   }
@@ -527,7 +523,7 @@ background: black;
 
     }
     .bo p {
-      font-size: 1rem;
+      /* font-size: 1rem; */
       padding: 5px 0;
       font-family: Georgia, 'Times New Roman', Times, serif;
     }
